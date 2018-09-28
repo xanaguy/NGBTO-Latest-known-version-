@@ -1,0 +1,244 @@
+{
+    "ngbto_options_desc" : "Mod ktery udrzi hru hratelnym",
+
+    "ngbto_broadcast_title" : "Odeslat informace hracum",
+    "ngbto_broadcast_desc" : "Odeslat informace ostatnim hracum",
+
+    "ngbto_hidden_master_title" : "Vykopnout privatni profily",
+    "ngbto_hidden_master_desc" : "Vykopnout hrĂˇÄŤe s privatnimi profily",
+
+    "ngbto_empty_perk_deck_title" : "Perk sety 0/9",
+    "ngbto_empty_perk_deck_desc" : "Vykopnout hrace s progresem 0/9 na perku",
+
+    "ngbto_show_skills_title" : "Chat skilly/perky",
+    "ngbto_show_skills_desc" : "Napsat do chatu skilly/perky napojenych hracu",
+
+    "ngbto_deathwish_loud_title" : "Deathwish nahlas",
+    "ngbto_deathwish_loud_desc" : "Minimalni pocet hodin s oznacenim loud/bez ",
+
+    "ngbto_deathwish_stealth_title" : "Deathwish potichu",
+    "ngbto_deathwish_stealth_desc" : "Minimalni pocet hodin s oznacenim stealth",
+
+    "ngbto_overkill_loud_title" : "Overkill nahlas",
+    "ngbto_overkill_loud_desc" : "Minimalni pocet hodin s oznacenim loud/bez",
+
+    "ngbto_overkill_stealth_title" : "Overkill potichu",
+    "ngbto_overkill_stealth_desc" : "Minimalni pocet hodin s oznacenim stealth",
+
+    "ngbto_perk_deck_1_desc" : "Vykopnout hrace s perkem Criew chief",
+    "ngbto_perk_deck_2_desc" : "Vykopnout hrace s perkem Muscle",
+    "ngbto_perk_deck_3_desc" : "Vykopnout hrace s perkem Armorer",
+    "ngbto_perk_deck_4_desc" : "Vykopnout hrace s perkem Rogue",
+    "ngbto_perk_deck_5_desc" : "Vykopnout hrace s perkem Hitman",
+    "ngbto_perk_deck_6_desc" : "Vykopnout hrace s perkem Crook",
+    "ngbto_perk_deck_7_desc" : "Vykopnout hrace s perkem Burglar",
+    "ngbto_perk_deck_8_desc" : "Vykopnout hrace s perkem Infiltrator",
+    "ngbto_perk_deck_9_desc" : "Vykopnout hrace s perkem Sociopath",
+    "ngbto_perk_deck_10_desc" : "Vykopnout hrace s perkem Gambler",
+    "ngbto_perk_deck_11_desc" : "Vykopnout hrace s perkem Grinder",
+    "ngbto_perk_deck_12_desc" : "Vykopnout hrace s perkem Yakuza",
+    "ngbto_perk_deck_13_desc" : "Vykopnout hrace s perkem Ex-President",
+    "ngbto_perk_deck_14_desc" : "Vykopnout hrace s perkem Maniac",
+    "ngbto_perk_deck_15_desc" : "Vykopnout hrace s perkem Anarchist",
+
+    "ngbto_hidden_infamy_title" : "Privatni infamy",
+    "ngbto_hidden_infamy_desc" : "Nastaveni infame privatnich profilu (Potrebuje: Kopnout privatni profily)",
+
+    "ngbto_hidden_infamy_minimum_title" : "Minimalni pocet infamy",
+    "ngbto_hidden_infamy_minimum_desc" : "Minimalni pocet infamy pro privatni profily (Potrebuje: Kopnout privatni profily a Privatni Infamy)",
+
+    "lobby_create_message_1" : "This lobby will auto kick",
+    "lobby_create_message_2" : "hidden profiles and",
+    "lobby_create_message_3" : "players with under",
+    "lobby_create_message_4" : "hours total playtime from the game.",
+
+    "kick_option_off" : "Autokicknuti vypnuto",
+    "kick_option_on_1" : "Zapnute Vykopnuti pod ",
+    "kick_option_on_2" : "hodin",
+    "kick_option_on_3" : "Privatni profily",
+    "kick_option_on_4" : "nebudou vykopnuti",
+    "kick_option_on_5" : "budou vykopnuti",
+
+    "player_whitelist" : "is from whitelist.",
+    "player_blacklist" : "is from blacklist.",
+    "player_was_hidden" : "had hidden profile.",
+    "player_is_hidden" : "has hidden profile.",
+
+    "hours_kicked_1" : "kicked for having",
+    "hours_kicked_2" : "hours",
+
+    "hours_joined_1" : "has",
+    "hours_joined_2" : "hours",
+
+    "cheater_ban" : "was banned for using too many skill points",
+
+    "perk_deck_kick_1" : "kicked for using",
+    "perk_deck_kick_2" : "perk deck",
+    "perk_deck_kick_3" : "kicked for 0/9 perk deck",
+    "perk_deck_kick_4" : "kicked for too low infamy",
+    "perk_deck_kick_5" : "kicked for too high infamy",
+
+    "ngbto_local_message_title" : "Lokalizovana privitaci zprava",
+    "ngbto_local_message_desc" : "Vyber zpravy ktere budou ve stejnem jazyku jako hra nebo v anglictine",
+
+    "ngbto_no_deployable_title" : "zadne pokladaci veci",
+    "ngbto_no_deployable_desc" : "Vykopne lidi bez pokladacich veci(ammobag,ecm a jine).(Funguje tehdy pokud hra odstartovala)",
+    "ngbto_single_turret_desc" : "Vykopne lidi se sentry gunou.(Funguje tehdy pokud hra odstartovala)",
+    "ngbto_body_bags_desc" : "Vykopne lidi s body bagem.(Funguje tehdy pokud hra odstartovala)",
+    "ngbto_armor_kit_desc" : "Vykopne lidi s armor bagem.(Funguje tehdy pokud hra odstartovala)",
+    "ngbto_single_ecm_desc" : "Vykopne lidi s ECMkem.(Funguje tehdy pokud hra odstartovala)",
+    "ngbto_four_first_aid_kits_desc" : "Vykopne lidi s first aid kit.(Funguje tehdy pokud hra odstartovala)",
+
+    "ngbto_pd2stats_title" : "Pd2stats anti cheat",
+    "ngbto_pd2stats_desc" : "pouzije PD2staty jako anticheat",
+
+    "pd2_cheater" : "cheated and was banned",
+
+    "ngbto_hidden_infamy_v_title" : "Privatni infamy V-100 Kopnout",
+    "ngbto_hidden_infamy_v_desc" : "Vykopne lidi s privatnim profilem ktery maji infamy V-100 (potrebuje: Kopnout privatni profily a Privatni infamy)",
+
+    "ngbto_hidden_infamy_xxv_title" : "Privatni infamy XXV-100 Kopnout",
+    "ngbto_hidden_infamy_xxv_desc" : "Vykopne lidi s privatnim profilem ktery maji infamy XXV-100 (potrebuje: Kopnout privatni profily a Privatni infamy)",
+
+    "ngbto_incomplete_perk_deck_title" : "Nekompletni set perku",
+    "ngbto_incomplete_perk_deck_desc" : "Kopne lidi s nekompletnim perk setem priklad: Hitman 8/9",
+
+    "ngbto_armor_1_desc" : "Vykopnout lidi s oblekem (Funguje tehdy pokud hra odstartovala)",
+    "ngbto_armor_2_desc" : "Vykopnout lidi s lehkou balistickou vestou (Funguje tehdy pokud hra odstartovala)",
+    "ngbto_armor_3_desc" : "Vykopnout lidi s balistickou vestou (Funguje tehdy pokud hra odstartovala)",
+    "ngbto_armor_4_desc" : "Vykopnout lidi s tezkou balistickou vestou (Funguje tehdy pokud hra odstartovala)",
+    "ngbto_armor_5_desc" : "Vykopnout lidi s obrannym kabatem (flak jacket) (Funguje tehdy pokud hra odstartovala)",
+    "ngbto_armor_6_desc" : "Vykopnout lidi s kombinovanou taktickou vestou (Funguje tehdy pokud hra odstartovala)",
+    "ngbto_armor_7_desc" : "Vykopnout lidi s upravenou kombinovanou taktickou vestou (Funguje tehdy pokud hra odstartovala)",
+
+    "infamyxxv_kick" : "Mel XXV-100 infamy s privatnim profilem",
+    "infamyv_kick" : "Mel V-100 infamy s privatnim profilem",
+
+    "that_one_string" : "",
+
+    "ngbto_hidden_infamy_maximum_title" : "Maximalni pocet infamy",
+    "ngbto_hidden_infamy_maximum_desc" : "Max infamy pro privatni profil (potrebuje: Kopnout privatni profily a Privatni infamy)",
+
+    "ngbto_pd2stats_extra_title" : "Nedostatecny pocet splneych heistu",
+    "ngbto_pd2stats_extra_desc" : "Blacklistne lidi s nedostatecnym poctem heistu na udelani infamy nebo neco jineho'.\nUdelal jsem to protoze toto nastaveni melo hodne negativnich vlivu",
+
+    "NGBTO_Off" : "Mod je ted vypnuty.",
+
+    "total_count_kick" : "had completed too few heists",
+    "deathwish_count_kick" : "had completed too few heists on deathwish",
+
+    "ngbto_deathwish_heists_title" : "Deathwish pocet",
+    "ngbto_deathwish_heists_desc" : "Kopne lidi s pod pocet vyhranych Deathwish heistu",
+
+    "ngbto_deathwish_heists_number_title" : "Deathwish pocet heistu",
+    "ngbto_deathwish_heists_number_desc" : "Potrebuje: Deathwish pocet",
+
+    "ngbto_total_heists_title" : "Celkovy pocet",
+    "ngbto_total_heists_desc" : "Kopne lidi pod pocet celkove vyhranych heistu",
+
+    "ngbto_total_heists_number_title" : "Celkovy pocet heistu",
+    "ngbto_total_heists_number_desc" : "Potrebuje: Celkovy pocet",
+
+    "lobby_not_supported" : "Toto lobby napise informace o pripojujicich se hracich a zabanuje cheatery automaticky",
+
+    "ngbto_language_title" : "Jazyk",
+    "ngbto_language_desc" : "Vyber jazyk pro mod (Potrebuje restart pro aplikovani jazyka)",
+
+    "ngbto_toggle_title" : "Zapnout nebo vypnout Vykopavani",
+    "ngbto_toggle_desc" : "S timhle tlacitkem muzes nastavit klavesu pro vypinani/zapinani modu",
+
+    "Newbie_Statistics" : "Statistics",
+    "Newbie_Kills" : "Kills",
+    "Newbie_Spec_Kills" : "Special Kills",
+    "Newbie_Headshots" : "Headshots",
+    "Newbie_Accuracy" : "Accuracy",
+    "Newbie_Downs" : "Downs",
+    "ngbto_statistics_title" : "Napsat statistiku",
+    "ngbto_statistics_desc" : "Napise statistiku hracu na konci heistu (Jen pro hosta lobby)",
+
+    "ngbto_skill_overlay_title" : "Napsat informaci na HUD",
+    "ngbto_skill_overlay_desc" : "Kdyz klavesa bude stisknuta tak se vsem objevi zprava na HUDu",
+
+    "pd_anticheat_self" : "Anticheat ve hre",
+
+    "hidden_kick_on" : " Hidden profiles will be kicked",
+
+    "ngbto_ingame_anticheat_title" : "Pouzit anticheat ve hre",
+    "ngbto_ingame_anticheat_desc" : "Zabanovat lidi kteri jsou oznaceni anticheatem ve hre",
+    "ngbto_manual_ban_title" : "Manualni ban",
+    "ngbto_manual_ban_desc" : "Vybrat lidi ze hry pro Vykopnuti a pridani je do Blacklistu",
+    "Manual_ban_select" : "Vyber koho zabanovat",
+    "Manual_ban_button" : "BAN",
+    "ngbto_inspection_title" : "Inspekce hrace",
+    "ngbto_inspection_desc" : "Zobrazit informace o vybranem hraci",
+    "player_inspection" : "Prohledat vybraneho hrace",
+    "Back" : "Zpet",
+    "Level" : "Level",
+    "clean" : "Cisty",
+    "warning" : "VAROVANI!",
+    "Player" : "Hrac",
+    "Playtime" : "Herni doba",
+    "Achievements" : "Oceneni",
+    "VAC_status" : "Status VAC",
+    "Pd2Stats_check" : "Pd2Stats status",
+    "hidden" : "Privatni",
+    "manually_added_to_blacklist" : "byl pridan do blacklistu",
+    "Newbie_Kill_Per_Minute" : "KPM",
+
+    "ngbto_detailed_skills_title" : "Detailni Skilly",
+    "ngbto_detailed_skills_desc" : "Zobrazit detailneji skillpointy",
+
+    "ngbto_options_anti_cheat" : "Anti-Cheat",
+    "ngbto_options_anti_cheat_desc" : "Funkce podobnemu Anticheatu, toto udela vase lobby vice bezpecne proti tem ktery by radi vzali lehci cestu pryc",
+    "ngbto_options_armor" : "Brneni",
+    "ngbto_options_armor_desc" : "Moznost trideni brneni",
+    "ngbto_options_data_filters" : "Filtr hodin",
+    "ngbto_options_data_filters_desc" : "Filtruje lidi vybranim casu herni doby nebo kolik heistu dohral ",
+    "ngbto_options_deployables" : "Pokladaci veci",
+    "ngbto_options_deployables_desc" : "Moznost trideni hracu podle vybrane pokladaci veci",
+    "ngbto_options_extras" : "Informace",
+    "ngbto_options_extras_desc" : "Vyber jakou informaci chces zobrazit sobe a hracum",
+    "ngbto_options_hidden" : "Privatni profily",
+    "ngbto_options_hidden_desc" : "Moznost trideni privatnich profilu",
+    "ngbto_options_perk_decks" : "Perky",
+    "ngbto_options_perk_decks_desc" : "Moznost trideni ",
+
+    "ngbto_skill_cheats_title" : "Skill point anti-cheat",
+    "ngbto_skill_cheats_desc" : "Zabanovat lidi co maji vice nez 120 skillpointu",
+
+    "ngbto_kick_type_title" : "Instantni vykopnuti",
+    "ngbto_kick_type_desc" : "Jestli je toto zaskrtnute, Tak to napise duvod vykopnuti nez je to samotne vykopne",
+    "ngbto_remove_type_title" : "Typ vykopnuti",
+    "ngbto_remove_type_desc" : "Jakym zpusobem vykopnout hrace ze hry. co to hraci ukaze\nSkryte vykopnuti: ukaze jim zpravu o odpojeni ze hry ale nedovoli jim to znova pripojit\nZobrazene vykopnuti: Normalni vykopnuti ze hry\nDisconnect: Odpoji hrace ze hry, ale muze se znova pripojit",
+    "hide_kick" : "Skryte vykopnuti",
+    "plain_kick" : "Normalni vykopnuti",
+    "disconnect_person" : "Odpojeni",
+
+    "ngbto_options_infamy" : "Ostatni",
+    "ngbto_options_infamy_desc" : "Filtrovat lidi co neco dostali rychleji nez si myslis ze je mozne",
+    "ngbto_infamy_10" : "Infamy V - X",
+    "ngbto_infamy_15" : "Infamy XI - XV",
+    "ngbto_infamy_20" : "Infamy XVI - XX",
+    "ngbto_infamy_24" : "Infamy XXI - XXIV",
+    "ngbto_infamy_25" : "Infamy XXV",
+    "ngbto_infamy_hours_desc" : "Minimalni pocet hodin na ziskani toho levelu infamy\n(potrebuje: Infamy podle hodin)",
+    "ngbto_infamy_check" : "Infamy podle hodin",
+    "ngbto_infamy_check_desc" : "PĹ™i tomto vĂ˝bÄ›ru budete moci pouĹľĂ­vat filtry nĂ­Ĺľe",
+    "fast_infamy" : "ziskani infamy",
+    "too_fast" : "moc rychle",
+    "achievements_too_fast" : "ziskani",
+    "ngbto_achievements_check" : "oceneni podle hodin",
+    "ngbto_achievements_check_desc" : "Filtrovat co maji vice jak 370 oceneni za mene nez 300 hodin",
+
+    "ngbto_detection_loud_title" : "Detekce loud",
+    "ngbto_detection_loud_desc" : "Filtrovat lidi pomoci Miry odhaleni\n(Funguje jen pokud hra je oznacena na loud)",
+    "ngbto_detection_loud_value_title" : "Mira detekce na Loud",
+    "ngbto_detection_loud_value_desc" : "Vykopne vsechny lidi co maji mensi nez tolik procent odhaleni \n(Potrebuje: Detekce loud)",
+    "ngbto_detection_stealth_title" : "Detekce Stealth",
+    "ngbto_detection_stealth_desc" : "Filtrovat lidi pomoci miry odhaleni\n(Only works if the game has tag of Stealth)",
+    "ngbto_detection_stealth_value_title" : "Mira detekce na Stealth",
+    "ngbto_detection_stealth_value_desc" : "Vykopne vsechny lidi co maji vetsi nez tolik procent odhaleni\n(Potrebuje: Detekce Stealth)",
+
+    "ngbto_detection_too_high" : "kicked for having too high detection rate",
+    "ngbto_detection_too_low" : "kicked for having too low detection rate"
+}

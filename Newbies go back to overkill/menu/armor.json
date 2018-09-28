@@ -1,0 +1,73 @@
+{
+	"menu_id" : "ngbto_options_armor",
+	"parent_menu_id" : "ngbto_options_menu",
+	"title" : "ngbto_options_armor",
+	"description" : "ngbto_options_armor_desc",
+	"back_callback" : "ngbto_menu",
+	"items" : 
+	[
+		{
+			"type" : "toggle",
+			"id" : "ngbto_armor_1",
+			"title" : "bm_armor_level_1",
+			"description" : "ngbto_armor_1_desc",
+			"callback" : "ngbto_armor_1_callback",
+			"value" : "armor1",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_armor_2",
+			"title" : "bm_armor_level_2",
+			"description" : "ngbto_armor_2_desc",
+			"callback" : "ngbto_armor_2_callback",
+			"value" : "armor2",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_armor_3",
+			"title" : "bm_armor_level_3",
+			"description" : "ngbto_armor_3_desc",
+			"callback" : "ngbto_armor_3_callback",
+			"value" : "armor3",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_armor_4",
+			"title" : "bm_armor_level_4",
+			"description" : "ngbto_armor_4_desc",
+			"callback" : "ngbto_armor_4_callback",
+			"value" : "armor4",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_armor_5",
+			"title" : "bm_armor_level_5",
+			"description" : "ngbto_armor_5_desc",
+			"callback" : "ngbto_armor_5_callback",
+			"value" : "armor5",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_armor_6",
+			"title" : "bm_armor_level_6",
+			"description" : "ngbto_armor_6_desc",
+			"callback" : "ngbto_armor_6_callback",
+			"value" : "armor6",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_armor_7",
+			"title" : "bm_armor_level_7",
+			"description" : "ngbto_armor_7_desc",
+			"callback" : "ngbto_armor_7_callback",
+			"value" : "armor7",
+			"default_value" : false
+		}
+	]
+}

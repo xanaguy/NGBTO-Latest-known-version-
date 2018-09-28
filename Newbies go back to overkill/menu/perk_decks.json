@@ -1,0 +1,208 @@
+{
+	"menu_id" : "ngbto_options_perk_decks",
+	"parent_menu_id" : "ngbto_options_menu",
+	"title" : "ngbto_options_perk_decks",
+	"description" : "ngbto_options_perk_decks_desc",
+	"back_callback" : "ngbto_menu",
+	"items" : 
+	[
+		{
+			"type" : "toggle",
+			"id" : "ngbto_incomplete_perk_deck",
+			"title" : "ngbto_incomplete_perk_deck_title",
+			"description" : "ngbto_incomplete_perk_deck_desc",
+			"callback" : "ngbto_incomplete_perk_deck_callback",
+			"value" : "incompletedeck",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_empty_perk_deck",
+			"title" : "ngbto_empty_perk_deck_title",
+			"description" : "ngbto_empty_perk_deck_desc",
+			"callback" : "ngbto_empty_perk_deck_callback",
+			"value" : "perkdeck0_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_1",
+			"title" : "menu_st_spec_1",
+			"description" : "ngbto_perk_deck_1_desc",
+			"callback" : "ngbto_perk_deck_1_callback",
+			"value" : "perkdeck_1_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_2",
+			"title" : "menu_st_spec_2",
+			"description" : "ngbto_perk_deck_2_desc",
+			"callback" : "ngbto_perk_deck_2_callback",
+			"value" : "perkdeck_2_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_3",
+			"title" : "menu_st_spec_3",
+			"description" : "ngbto_perk_deck_3_desc",
+			"callback" : "ngbto_perk_deck_3_callback",
+			"value" : "perkdeck_3_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_4",
+			"title" : "menu_st_spec_4",
+			"description" : "ngbto_perk_deck_4_desc",
+			"callback" : "ngbto_perk_deck_4_callback",
+			"value" : "perkdeck_4_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_5",
+			"title" : "menu_st_spec_5",
+			"description" : "ngbto_perk_deck_5_desc",
+			"callback" : "ngbto_perk_deck_5_callback",
+			"value" : "perkdeck_5_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_6",
+			"title" : "menu_st_spec_6",
+			"description" : "ngbto_perk_deck_6_desc",
+			"callback" : "ngbto_perk_deck_6_callback",
+			"value" : "perkdeck_6_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_7",
+			"title" : "menu_st_spec_7",
+			"description" : "ngbto_perk_deck_7_desc",
+			"callback" : "ngbto_perk_deck_7_callback",
+			"value" : "perkdeck_7_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_8",
+			"title" : "menu_st_spec_8",
+			"description" : "ngbto_perk_deck_8_desc",
+			"callback" : "ngbto_perk_deck_8_callback",
+			"value" : "perkdeck_8_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_9",
+			"title" : "menu_st_spec_9",
+			"description" : "ngbto_perk_deck_9_desc",
+			"callback" : "ngbto_perk_deck_9_callback",
+			"value" : "perkdeck_9_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_10",
+			"title" : "menu_st_spec_10",
+			"description" : "ngbto_perk_deck_10_desc",
+			"callback" : "ngbto_perk_deck_10_callback",
+			"value" : "perkdeck_10_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_11",
+			"title" : "menu_st_spec_11",
+			"description" : "ngbto_perk_deck_11_desc",
+			"callback" : "ngbto_perk_deck_11_callback",
+			"value" : "perkdeck_11_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_12",
+			"title" : "menu_st_spec_12",
+			"description" : "ngbto_perk_deck_12_desc",
+			"callback" : "ngbto_perk_deck_12_callback",
+			"value" : "perkdeck_12_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_13",
+			"title" : "menu_st_spec_13",
+			"description" : "ngbto_perk_deck_13_desc",
+			"callback" : "ngbto_perk_deck_13_callback",
+			"value" : "perkdeck_13_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_14",
+			"title" : "menu_st_spec_14",
+			"description" : "ngbto_perk_deck_14_desc",
+			"callback" : "ngbto_perk_deck_14_callback",
+			"value" : "perkdeck_14_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_15",
+			"title" : "menu_st_spec_15",
+			"description" : "ngbto_perk_deck_15_desc",
+			"callback" : "ngbto_perk_deck_15_callback",
+			"value" : "perkdeck_15_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_16",
+			"title" : "menu_st_spec_16",
+			"description" : "ngbto_perk_deck_16_desc",
+			"callback" : "ngbto_perk_deck_16_callback",
+			"value" : "perkdeck_16_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_17",
+			"title" : "menu_st_spec_17",
+			"description" : "ngbto_perk_deck_17_desc",
+			"callback" : "ngbto_perk_deck_17_callback",
+			"value" : "perkdeck_17_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_18",
+			"title" : "menu_st_spec_18",
+			"description" : "ngbto_perk_deck_18_desc",
+			"callback" : "ngbto_perk_deck_18_callback",
+			"value" : "perkdeck_18_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_19",
+			"title" : "menu_st_spec_19",
+			"description" : "ngbto_perk_deck_19_desc",
+			"callback" : "ngbto_perk_deck_19_callback",
+			"value" : "perkdeck_19_val",
+			"default_value" : false
+		}
+		{
+			"type" : "toggle",
+			"id" : "ngbto_perk_deck_20",
+			"title" : "menu_st_spec_20",
+			"description" : "ngbto_perk_deck_20_desc",
+			"callback" : "ngbto_perk_deck_20_callback",
+			"value" : "perkdeck_20_val",
+			"default_value" : false
+		}
+	]
+}

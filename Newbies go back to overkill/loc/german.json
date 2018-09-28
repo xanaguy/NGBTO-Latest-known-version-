@@ -1,0 +1,249 @@
+{
+    "ngbto_options_desc" : "Mod, um das Spiel spielbar zu machen",
+
+    "ngbto_broadcast_title" : "An Mitspieler Senden",
+    "ngbto_broadcast_desc" : "Informationen an anderen Mitspieler senden",
+
+    "ngbto_hidden_master_title" : "Spieler mit privatem Profil kicken",
+    "ngbto_hidden_master_desc" : "Kicke private Profile",
+
+    "ngbto_empty_perk_deck_title" : "Perk-Deck 0/9 Spieler",
+    "ngbto_empty_perk_deck_desc" : "Kicke Spieler mit Perk-Deck Fertigstellung 0/9",
+
+    "ngbto_show_skills_title" : "Sende Fertigkeiten / Perk-Deck Informationen",
+    "ngbto_show_skills_desc" : "Sende Information über die Skills beigetretener Spieler",
+
+    "ngbto_deathwish_loud_title" : "Todeswunsch Laut",
+    "ngbto_deathwish_loud_desc" : "Minimale Anzahl an Stunden für die Todeswunsch Schwierigkeit mit Laut Markierung / keiner Makierung",
+
+    "ngbto_deathwish_stealth_title" : "Todeswunsch Stealth",
+    "ngbto_deathwish_stealth_desc" : "Minimale Anzahl an Stunden für Todeswunsch Schwierigkeit mit Stealth Markierung",
+
+    "ngbto_overkill_loud_title" : "Overkill Laut",
+    "ngbto_overkill_loud_desc" : "Minimale Anzahl an Stunden für Overkill Schwierigkeit mit Laut Markierung / keiner Markierung",
+
+    "ngbto_overkill_stealth_title" : "Overkill Stealth",
+    "ngbto_overkill_stealth_desc" : "Minimale Anzahl an Stunden für Overkill Schwierigkeit mit Stealth Markierung",
+
+    "ngbto_perk_deck_1_desc" : "Kicke Crewboss",
+    "ngbto_perk_deck_2_desc" : "Kicke Muskelprotz",
+    "ngbto_perk_deck_3_desc" : "Kicke Waffentechniker",
+    "ngbto_perk_deck_4_desc" : "Kicke Schurke",
+    "ngbto_perk_deck_5_desc" : "Kicke Hitman",
+    "ngbto_perk_deck_6_desc" : "Kicke Gauner",
+    "ngbto_perk_deck_7_desc" : "Kicke Einbrecher",
+    "ngbto_perk_deck_8_desc" : "Kicke Spion",
+    "ngbto_perk_deck_9_desc" : "Kicke Soziopath",
+    "ngbto_perk_deck_10_desc" : "Kicke Spieler",
+    "ngbto_perk_deck_11_desc" : "Kicke Grinder",
+    "ngbto_perk_deck_12_desc" : "Kicke Yakuza",
+    "ngbto_perk_deck_13_desc" : "Kicke Ex-President",
+    "ngbto_perk_deck_14_desc" : "Kick Maniac",
+    "ngbto_perk_deck_15_desc" : "Kick Anarchist",
+    "ngbto_perk_deck_16_desc" : "Kick players that use Biker perk decks",
+
+    "ngbto_hidden_infamy_title" : "Berüchtigt-Level privater Profile",
+    "ngbto_hidden_infamy_desc" : "Berüchtigt-Level privater Profile herausfinden",
+
+    "ngbto_hidden_infamy_minimum_title" : " Minimales Berüchtigt-Level",
+    "ngbto_hidden_infamy_minimum_desc" : "Minimales Berüchtigtslevel privater Profile (Benötigt: Kicke private Profile und Verstecktes Berüchtigt-Level)",
+
+    "lobby_create_message_1" : "Diese Lobby wird automatisch Spieler mit",
+    "lobby_create_message_2" : "privatem Profil und",
+    "lobby_create_message_3" : "Spieler mit unter",
+    "lobby_create_message_4" : "Stunden Spielzeit kicken.",
+
+    "kick_option_off" : "Kick ausgeschaltet",
+    "kick_option_on_1" : "Kick eingeschaltet für unter",
+    "kick_option_on_2" : "Stunden.",
+    "kick_option_on_3" : "Private Profile werden",
+    "kick_option_on_4" : "nicht gekickt",
+    "kick_option_on_5" : "gekickt",
+
+    "player_whitelist" : "ist auf der Whitelist.",
+    "player_blacklist" : "ist auf der Blacklist.",
+    "player_was_hidden" : "hatte ein privates Profil.",
+    "player_is_hidden" : "hat ein privates Profil.",
+
+    "hours_kicked_1" : "wurde wegen",
+    "hours_kicked_2" : "Stunden gekickt",
+
+    "hours_joined_1" : "hat",
+    "hours_joined_2" : "Stunden",
+
+    "cheater_ban" : "wurde gebannt, weil er zu viele Skill-Punkte benutzt",
+
+    "perk_deck_kick_1" : "wurde gekickt, wegen:",
+    "perk_deck_kick_2" : "Perk-Deck",
+    "perk_deck_kick_3" : "0/9 Perk-Deck",
+    "perk_deck_kick_4" : "zu niedrigem Berüchtigt-Level.",
+    "perk_deck_kick_5" : "zu niedrigem Berüchtigt-Level",
+
+    "ngbto_local_message_title" : "Übersetzte Willkommensnachricht",
+    "ngbto_local_message_desc" : "Die Nachricht wird entweder in der gleiche Sprache wie dein Spiel sein oder in Englisch",
+
+    "ngbto_no_deployable_title" : "Kein Equipment",
+    "ngbto_no_deployable_desc" : "Kickt Spieler ohne Equipment. Nur für Laut (Funktioniert nur, wenn das Spiel schon gestartet ist)",
+    "ngbto_single_turret_desc" : "Kickt Spieler mit nur einer Sentry Gun. Nur für Laut (Funktioniert nur, wenn das Spiel schon gestartet ist)",
+    "ngbto_body_bags_desc" : "Kickt Spieler mit Leichensackkoffern. Nur für Laut (Funktioniert nur, wenn das Spiel schon gestartet ist)",
+    "ngbto_armor_kit_desc" : "Kickt Spieler mit Panzerungstasche. Nur für Laut (Funktioniert nur, wenn das Spiel schon gestartet ist)",
+    "ngbto_single_ecm_desc" : "Kickt Spieler mit nur einem ECM-Störsender. Nur für Laut (Funktioniert nur, wenn das Spiel schon gestartet ist)",
+    "ngbto_four_first_aid_kits_desc" : "Kickt Spieler mit nur vier Erste Hilfe Sets. Nur für Laut (Funktioniert nur, wenn das Spiel schon gestartet ist)",
+
+    "ngbto_pd2stats_title" : "Pd2stats gegen Cheater",
+    "ngbto_pd2stats_desc" : "Benutze pd2stats um gegen Spieler, die cheaten, vorzugehen",
+
+    "pd2_cheater" : "hat gecheated und wurde gebannt",
+
+    "ngbto_hidden_infamy_v_title" : "Berüchtigt-Level V-100 kicken",
+    "ngbto_hidden_infamy_v_desc" : "Spieler kicken, die ein privates Profil haben und Berüchtigt-Level V-100 sind ",
+
+    "ngbto_hidden_infamy_xxv_title" : "Berüchtigt-Level XXV-100 kicken",
+    "ngbto_hidden_infamy_xxv_desc" : "Spieler kicken, die ein privates Profil haben und Berüchtigt-Level XXV-100 sind",
+
+    "ngbto_incomplete_perk_deck_title" : "Unfertiges Perk-Deck",
+    "ngbto_incomplete_perk_deck_desc" : "Spieler kicken, die ein unfertiges Perk-Deck haben, z.B: Hitman 8/9",
+
+    "ngbto_armor_1_desc" : "Kicke Spieler mit Klassischem Anzug",
+    "ngbto_armor_2_desc" : "Kicke Spieler mit Leichter Schutzweste",
+    "ngbto_armor_3_desc" : "Kicke Spieler mit Schutzweste",
+    "ngbto_armor_4_desc" : "Kicke Spieler mit Schwerer Schutzweste",
+    "ngbto_armor_5_desc" : "Kicke Spieler mit Flakweste",
+    "ngbto_armor_6_desc" : "Kicke Spieler mit Taktischer Panzerweste",
+    "ngbto_armor_7_desc" : "Kicke Spieler mit Verbesserter Taktischen Panzerweste",
+
+
+    "infamyxxv_kick" : "War infamy XXV-100 und hatte ein privates Profil",
+    "infamyv_kick" : "War infamy V-100 und hatte ein privates Profile",
+
+    "ngbto_hidden_infamy_maximum_title" : "Berüchtigt-Level privater Profile",
+    "ngbto_hidden_infamy_maximum_desc" : "Maximales Berüchtigt-Level für private Profile (Benötigt: Kicke private Profile und Verstecktes Berüchtigt-Level)",
+
+    "NGBTO_Off" : "Mod ist momentan ausgeschaltet.",
+
+    "ngbto_pd2stats_extra_title" : "Nicht genügend Überfälle beendet",
+    "ngbto_pd2stats_extra_desc" : "Spieler der Blacklist hinzufügen, die nicht genügend Überfälle beendet haben, um überhaupt ein Berüchtig-Level zu sein'.\nI have made this, because this setting has a lot of false positives",
+
+    "total_count_kick" : "hat zu wenig Überfälle beendet",
+    "deathwish_count_kick" : "hat zu wenig Überfälle auf Todesmut beendet",
+
+    "ngbto_deathwish_heists_title" : "Todesmut Spiele abgeschlossen",
+    "ngbto_deathwish_heists_desc" : "Spieler kicken, die weniger als die geforderte Anzahl der Todesmut Spiele beendet haben",
+
+    "ngbto_deathwish_heists_number_title" : "Geforderte Spiele",
+    "ngbto_deathwish_heists_number_desc" : "Benötigt: Todesmust Spiele abgeschlossen",
+
+    "ngbto_total_heists_title" : "Spiele abgeschlossen",
+    "ngbto_total_heists_desc" : "Spieler kicken, die weniger als die geforderte Anzahl an Spielen insgesammt beendet haben",
+
+    "ngbto_total_heists_number_title" : "Geforderte Spiele",
+    "ngbto_total_heists_number_desc" : "Benötigt:Spiele abgeschlossen",
+
+    "ngbto_language_title" : "Sprachausgabe",
+    "ngbto_language_desc" : "Ändere die Sprachausgabe der Mod (Benötigt Neustart, um zu wirken)",
+
+    "ngbto_toggle_title" : "Schalte kicken AN/AUS",
+    "ngbto_toggle_desc" : "Mit dieser Tastenbelegung kannst Du die Mod zu jeder Zeit ausschalten",
+
+    "Newbie_Statistics" : "Statistiken",
+    "Newbie_Kills" : "Kills",
+    "Newbie_Spec_Kills" : "Spezial-Gegner Kills",
+    "Newbie_Headshots" : "Kopfschüße",
+    "Newbie_Accuracy" : "Genauigkeit",
+    "Newbie_Downs" : "Außer Gefecht gesetzt",
+
+    "ngbto_statistics_title" : "Sende Statistiken",
+    "ngbto_statistics_desc" : "Sende die Statistiken am Ende des Heists in den Chat",
+
+    "ngbto_skill_overlay_title" : "Sende Informationen in den Chat",
+    "ngbto_skill_overlay_desc" : "Sendet Informationen zu den Spielern in einer kurzen Übersicht",
+
+    "pd_anticheat_self" : "In-Game Anti-Cheat",
+
+    "hidden_kick_on" : "Private Profile werden gekickt",
+
+    "ngbto_ingame_anticheat_title" : "Benutze In-Game Anti-Cheat",
+    "ngbto_ingame_anticheat_desc" : "Banne Spieler, die vom In-Game Anti-Cheat erkannt wurden",
+    "ngbto_manual_ban_title" : "Manuell bannen",
+    "ngbto_manual_ban_desc" : "Wähle Spieler aus und setzte sie auf die Blacklist",
+    "Manual_ban_select" : "Wähle aus, wer gebannt werden soll",
+    "Manual_ban_button" : "BANNEN",
+    "ngbto_inspection_title" : "Spieler inspizieren",
+    "ngbto_inspection_desc" : "Zeige diverse Informationen über den ausgewählten Spieler",
+    "player_inspection" : "Inspiziere die ausgewählte Person",
+    "Back" : "Zurück",
+    "Level" : "Level",
+    "clean" : "Keine Auffälligkeiten",
+    "warning" : "WARNUNG!",
+    "Player" : "Spieler",
+    "Playtime" : "Spielzeit",
+    "Achievements" : "Errungenschaften",
+    "VAC_status" : "VAC-Status",
+    "Pd2Stats_check" : "Pd2Stats-Status",
+    "hidden" : "Privat",
+    "manually_added_to_blacklist" : "Wurde der Blacklist hinzugefügt",
+    "Newbie_Kill_Per_Minute" : "KPM",
+
+    "ngbto_detailed_skills_title" : "Detaillierte Skills",
+    "ngbto_detailed_skills_desc" : "Zeige detaillierte Skillpunkte",
+
+    "ngbto_options_anti_cheat" : "Anti-Cheat",
+    "ngbto_options_anti_cheat_desc" : "Funktionen zum Anti-Cheat. Dies wird Deine Lobby gegen jene schützen, die gerne den 'leichten' Weg gehen",
+    "ngbto_options_armor" : "Rüstung",
+    "ngbto_options_armor_desc" : "Rüstungs-Sortier-Optionen",
+    "ngbto_options_data_filters" : "Stunden-Filter",
+    "ngbto_options_data_filters_desc" : "Filtere Spieler durch eine ausgewählte Anzahl and abgeschlossenen Heists oder der Spielzeit",
+    "ngbto_options_deployables" : "Ausrüstungsgegenstände",
+    "ngbto_options_deployables_desc" : "Ausrüstung der Spieler Optionen",
+    "ngbto_options_extras" : "Informationen",
+    "ngbto_options_extras_desc" : "Wähle aus, welche Informationen Dir und den anderen Spielern agezeigt werden",
+    "ngbto_options_hidden" : "Private Profile",
+    "ngbto_options_hidden_desc" : "Private Profile Optionen",
+    "ngbto_options_perk_decks" : "Perk Decks",
+    "ngbto_options_perk_decks_desc" : "Perk Deck Optionen",
+
+    "ngbto_skill_cheats_title" : "Skillpunkte Anti-Cheat",
+    "ngbto_skill_cheats_desc" : "Banne Spieler, die mehr als 120 Skillpunkte haben",
+
+    "ngbto_kick_type_title" : "Sofortiger Kick",
+    "ngbto_kick_type_desc" : "Wenn das aktiviert ist, werden Spieler sofortig gekickt. Sonst wird ihnen eine Nachricht in einem Fenster gezeigt, die ihnen den Grund für das Kicken erklärt",
+    "ngbto_remove_type_title" : "Kick Art",
+    "ngbto_remove_type_desc" : "Wie der Spieler gekickt werden soll, was dem Spieler angezeigt wird\nVersteckter Kick: wird eine 'Verbindung fehlgeschlagen Nachricht anzeigen und er wird nicht mehr beitreten können\nZeige Kick: Wird ihn kicken und nich mehr beitreten lassen\nVerbindungverlieren: Wird den Spieler nur die Verbindung fehlschlagen lassen, aber wieder beitreten lassen",
+    "hide_kick" : "Versteckter Kick",
+    "plain_kick" : "Zeige Kick",
+    "disconnect_person" : "Verbindung fehlgeschlagen",
+
+    "ngbto_options_infamy" : "Misc",
+    "ngbto_options_infamy_desc" : "Filtere Spieler, die etwas schneller erreicht haben, als Du denkst, dass es möglich ist",
+    "ngbto_infamy_10" : "Berüchtigt V - X",
+    "ngbto_infamy_15" : "Berüchtigt XI - XV",
+    "ngbto_infamy_20" : "Berüchtigt XVI - XX",
+    "ngbto_infamy_24" : "Berüchtigt XXI - XXIV",
+    "ngbto_infamy_25" : "Berüchtigt XXV",
+    "ngbto_infamy_hours_desc" : "Minimale Stundenanzahl, um das Berüchtigt-Level zu erreichen\n(Benötigt: Berüchtigt-Level nach Stunden)",
+    "ngbto_infamy_check" : "Berüchtigt-Level nach Stunden",
+    "ngbto_infamy_check_desc" : "Wenn ausgewählt, wirst Du die Filter unten nutzen können",
+    "fast_infamy" : "erreichtes Berüchtigt-Level",
+    "too_fast" : "zu schnell",
+    "achievements_too_fast" : "erreicht",
+    "ngbto_achievements_check" : "Errungenschaften nach Stunden",
+    "ngbto_achievements_check_desc" : "Filtere Spieler, die mehr als 370 Errungenschaften in weniger als 300 Stunden erreicht haben",
+
+    "ngbto_detection_loud_title" : "Entdeckungsrisiko Laut",
+    "ngbto_detection_loud_desc" : "Filtere Spieler nach dem Entdeckungsrisiko\n(Funktioniert nur, wenn das Spiel als 'Laut' markiert ist)",
+    "ngbto_detection_loud_value_title" : "Entdeckungsrisiko-Wert Laut",
+    "ngbto_detection_loud_value_desc" : "Wird jeden kicken, der niedriger ist als dieser Entdeckungsrisiko-Wert:\n(Benötigt:Entdeckungsrisiko Laut)",
+    "ngbto_detection_stealth_title" : "Entdeckungsrisiko Leise",
+    "ngbto_detection_stealth_desc" : "Filtere Spieler nach ihrem Entdeckungsrisiko\n(Funktioniert nur, wenn das Spiel als 'Leise' markiert ist)",
+    "ngbto_detection_stealth_value_title" : "Entdeckungsrisiko-Wert Leise",
+    "ngbto_detection_stealth_value_desc" : "Wird jeden kicken, der einen höher ist als dieser Entdeckungsrisiko-Wert:\n(Benötigt: Enteckungsrisiko Leise)",
+
+    "ngbto_detection_too_high" : "gekickt wegen zu hohem Entdeckungsrisiko-Wert",
+    "ngbto_detection_too_low" : "gekickt wegen zu niedrigem Entdeckungsrisiko-Wert",
+
+    "ngbto_first_aid_kit_desc" : "Wird Spieler kicken, die First Aid Kits als Ausrüstung haben\n(Funktioniert nur, wenn das Spiel gestartet hat, oder im Planungsbildschirm)",
+    "ngbto_trip_mine_desc" : "Wird Spieler kicken, die Minen als Ausrüstung haben\n(Funktioniert nur, wenn das Spiel gestartet hat, oder im Planungsbildschirm)",
+    "ngbto_doctor_bag_desc" : "Wird Spieler kicken, die Arzttaschen als Ausrüstung haben\n(Funktioniert nur, wenn das Spiel gestartet hat, oder im Planungsbildschirm)",
+    "ngbto_ammo_bag_desc" : "Wird Spieler kicken, die Munitionstaschen als Ausrüstung haben\n(Funktioniert nur, wenn das Spiel gestartet hat, oder im Planungsbildschirm)",
+    "ngbto_four_first_aid_kits" : "4 First Aid Kits"
+}

@@ -1,0 +1,366 @@
+Modification made for Payday 2 by FishTaco
+---------------------- 76 ----------------------
+Updated at 01-09-2017
+BLT 2 Support
+Fixed error printing due to json files
+---------------------- 75 ----------------------
+Updated at 01-09-2017
+BLT 2 Support
+Localization Fix provided by hollerbach
+---------------------- 3.47 R74 ----------------------
+Updated at 07-10-2016
+Hotfix for crashing when playing as client.
+---------------------- 3.46 R73 ----------------------
+Updated at 07-10-2016
+Added Mayhem support.
+Added One Down support.
+---------------------- 3.45 R72 ----------------------
+Updated at 27-08-2016
+Fixed crashing when you get kicked while loading.
+Tweaked the mod name when using it on Overkill difficulty.
+---------------------- 3.44 R71 ----------------------
+Updated at 03-07-2016
+Now you can kick people by any deployable.
+Deleted localized message, no point for it.
+Fixed system prints not appearing if you weren't the host.
+Tweaked the warn for a kick to appear only when a player loads.
+---------------------- 3.43 R70 ----------------------
+Updated at 03-07-2016
+Fixed deployable kicking not working properly.
+Fixed kick message being invisible if you manually kick a person.
+Changed the settings for deployable checks, it wont allow anyone to spawn with disallowed deployables(either ingame or in loadout screen).
+---------------------- 3.42 R69 ----------------------
+Updated at 01-07-2016
+Added detailed kick list. It will print to you and the players when they join what deployables, perk decks and armors are unallowed.
+Fixed the perk deck related checks so you can't kick yourself.
+Fixed private profiles being kicked even if the mod was turned off.
+---------------------- 3.41 R68 ----------------------
+Updated at 01-07-2016
+Fixed greet message being sent from other players.
+Added additional check if the message was printed too fast for cheater messages.
+---------------------- 3.40 R67 ----------------------
+Updated at 30-06-2016
+Fixed crash related to infamy checking.
+---------------------- 3.39 R66 ----------------------
+Updated at 30-06-2016
+Fixed deployables not working correctly.
+Changed deployables will now have different options to kick for no matter how many: ecm jammers, sentry guns, bodybags the player has.
+---------------------- 3.38 R65 ----------------------
+Updated at 30-06-2016
+Fix for crash mentioned by Anonymous FuX.
+Updated Dutch localization by BitsOfSkin.
+---------------------- 3.37 R64 ----------------------
+Updated at 30-06-2016
+Redone skill fetching.
+Added Second deployable checking.
+---------------------- 3.36 R63 ----------------------
+Updated at 29-06-2016
+Added detection rate filters(one for stealth and one for loud).
+Fixed toggle button.
+---------------------- 3.35 R62 ----------------------
+Updated at 28-06-2016
+Fixed the hours for the infamy check being incorrect.
+---------------------- 3.34 R61 ----------------------
+Updated at 28-06-2016
+Added ability to filter if the person has reached certain infamy faster than your selected value.
+Added ability to filter if the person has more than 350 achievements in less than 300 hours.
+---------------------- 3.33 R60 ----------------------
+Updated at 28-06-2016
+Fixed the toggle button turning on the mod after purchasing any heist.
+Disabled the system kick message if you are the host.
+Fixed the empty perk deck print.
+Added an ability to annouce players why they were kicked. It will spam the message to the kicked person three times and after a certain amount of time, they will get kicked.
+Added an extra option to decide how to kick people, do you want to let him rejoin or not.
+Added ingame changelog annouce.
+---------------------- 3.32 R59 ----------------------
+Updated at 26-06-2016
+Moved out the blacklist to the main game directory, will simplify the updates for JackHud and me.
+Improved english localization.
+Added a selection to either use skill point anti-cheat or not.
+---------------------- 3.31 R58 ----------------------
+Updated at 25-06-2016
+Fixed Chinese and Russian languages causing instant crash.
+Improved pd2stats lookup, it will work in a more civil manner.
+---------------------- 3.30 R57 ----------------------
+Updated at 25-06-2016
+Code optimization.
+Lowered maximum hour selection for overkill to 100.
+Split all the options menus to submenus, you won't have to use that clunky big menu anymore.
+Added Biker perk deck filter.
+---------------------- 3.27 R56 ----------------------
+Updated at 23-06-2016
+Removed the skill sharing function, the main game update will now force everyone to share their skill points.
+Removed the skull/ghost icons from print messages.
+Added an ability to print either detailed skill info or just a quick summary per tree.
+Fixed the max skill point count for a person until you can call him a cheater.
+---------------------- 3.26 R55 ----------------------
+Updated at 13-06-2016
+Reenabled pd2stats.
+Fixed when you as a client don't get notifications about other people skills as they join.
+Added Kill per minute to statistics.
+---------------------- 3.25 R54 ----------------------
+Updated at 04-06-2016
+Updated the anti cheat for skills to work according the levels.
+Added the skill tree sharing to the mod, so now you will share your progression with others, well and you will see your own.
+---------------------- 3.24 R53 ----------------------
+Updated at 04-06-2016
+Tweaked the mod, so skill point check would work with the new skill tree system.
+---------------------- 3.23 R52 ----------------------
+Updated at 03-06-2016
+Force disabled pd2stats checks, everyone keeps on getting tagged as a cheater. (Will reenable when it goes back to normal)
+---------------------- 3.22 R51 ----------------------
+Updated at 02-06-2016
+Fixed German localization.
+---------------------- 3.21 R50 ----------------------
+Updated at 02-06-2016
+Fixed German localization.
+---------------------- 3.2 R49 ----------------------
+Updated at 02-06-2016
+Changed German localization to a proper one (By Baum).
+Temporarily disabled the skill print for people, since it just spews out a bunch of zeros. Exmpl: "FishTaco M|00:00:00| E|00:00:00| T|00:00:00| G|00:00:00| F|00:00:00| Yakuza 9/9".
+Will reenable if Overkill fixes the skill sharing across the peers.
+---------------------- 3.12 R48 ----------------------
+Updated at 30-05-2016
+Fixed the print message.
+---------------------- 3.11 R47 ----------------------
+Updated at 30-05-2016
+Fixed the wrong path to the NetworkHooks file.
+---------------------- 3.10 R46 ----------------------
+Updated at 30-05-2016
+Rewriting of the code.
+Made the debug print to work with russian and other languages.
+Fixed when you manually add a person to blacklist and he doesn't get kicked.
+Fixed hours count for family shared accounts.
+Made it so you can't ban yourself or your friends in the overlay menu.
+Replaced Turkish localization with a new one (By sidknee).
+---------------------- 3.00 R45 ----------------------
+Updated at 16-05-2016
+Added manual banning keybind, you can ban anyone though it.
+Added inspection menu, it will display the following information:
+	- Username
+	- Infamy
+	- Level
+	- Playtime
+	- Unlocked achievement count
+	- Skill point distribution
+	- Perk deck
+	- Peck deck progression
+	- VAC status
+	- Pd2Stats lookup
+	- Primary weapon
+	- Secondary weapon
+	- Equipment and its count
+	- Throwables
+Though the new inspection menu you can access the persons:
+	- Steam profile
+	- Pd2stats page
+	- SteamRep
+	- SteamDb
+If you spot a undetected cheater, you can ban them though the inspection menu.
+---------------------- 2.92 R44 ----------------------
+Updated at 15-05-2016
+Fixed the welcome message not showing up.
+---------------------- 2.91 R43 ----------------------
+Updated at 13-05-2016
+Added Anarchist perk deck filter.
+---------------------- 2.90 R42 ----------------------
+Updated at 12-05-2016
+Added Czech localization.
+Updated Spanish localization.
+Added Maniac perk deck filter.
+Added Big Lobby mod support.
+Added time stamps to banned people for the blacklist.
+Added an option to either add cheaters caught by the ingame anticheat to the blacklist or not.
+Altered the print message to client, so if your hour filter is set to 0, it will not print that it will kick below 0 hours.
+Altered the pd2stats lookup, so it forces the api to update, resulting in less false positives.
+---------------------- 2.85 R41 ----------------------
+Updated at 15-02-2016
+Updated: Russian, French and Italian localizations.
+Improved blacklist generation.
+Fixed so you can't boot yourself out of the game for using something that has been restricted for other people.
+Fixed pd2stats that kicks whitelisted people as you enter lobby/game.
+---------------------- 2.84 R40 ----------------------
+Updated at 14-02-2016
+Yet another patching, getting tired of this crap. Sorry for such a *hotfixy* day.
+---------------------- 2.83 R39 ----------------------
+Updated at 14-02-2016
+Additional patching to prevent crashes.
+---------------------- 2.82 R38 ----------------------
+Updated at 14-02-2016
+Added Chinese localization by: WingOrLife.
+---------------------- 2.81 R37 ----------------------
+Updated at 14-02-2016
+Fixed the crash mentioned by a user MrBushidoJ. (Hope nothing up comes up today, if so I will get to you tommorow with more patching).
+---------------------- 2.8 R36 ----------------------
+Updated at 13-02-2016
+Fixed stats print and tweaked the spacing a little bit.
+Changed the way people are being kicked (it will display them the message about losing the connection to host). Other lobby members will see it as if he lost connection.
+Organised the mod a bit, cleaning it for the performace boost (from now on i will try to focus on optimising it rather than adding new features, because it is a mess).
+Information print is now using the color based on the lobby color.
+Fixed a typo that was in the mods settings.
+Blacklisted people lobbies do not appear on crime.net.
+Fixed the spam about cheaters when you join a lobby as a client.
+---------------------- 2.7 R35 ----------------------
+Updated at 08-02-2016
+Added ingame cheater catching, so they can be put to the blacklist. (long awaited feature i know).
+Added keybind to check people information at any time. (Currently prints skills/perk decks, will implement hours later on).
+Fixed stats print, rather printing peer id, not it will actually print information.
+---------------------- 2.61 R34 ----------------------
+Updated at 05-02-2016
+Fixed the crashing.
+---------------------- 2.6 R33 ----------------------
+Updated at 05-02-2016
+Fixed crashes when identifying values but instead getting nil values.
+Fixed the mod saying that hidden profiles will be kicked, even though it was the opposite.
+Improved armor/deployable check ups.
+Added statistics print after the heist is over, you can select to turn it off in the settings.
+Moved the keybind of the mod to it's settings menu.
+Mod announcments about the mod state is now being printed differently. Thanks for spiltmilk for showing a different approach for it.
+---------------------- 2.5 R32 ----------------------
+Updated at 01-02-2016
+Added legacy language support (Turkish) and now any language can be added.
+Added Turkish localization by Utku.
+Fixed crashes mentioned by steam user "revnant".
+Added support for all difficulties only for inspection.
+Fixed kicks on difficulties that weren't suppose to kick people.
+---------------------- 2.41 R31 ----------------------
+Updated at 20-01-2016
+Fixed the offline/safe house skill print crashes.
+Made it so it would only use the heists completion if you toggle the mod on (it did it regardlessly if its ON or OFF).
+Updated French localization.
+---------------------- 2.4 R30 ----------------------
+Updated at 19-01-2016
+Added total heists completed check.
+Added deathwish heists completed check.
+Made it so it prints everyones skills when the lobby goes into loadout screen.
+---------------------- 2.3 R29 ----------------------
+Updated at 18-01-2016
+Made max hours for Deatwish loud into 1000.
+Tweaked family sharing accounts check.
+---------------------- 2.2 R28 ----------------------
+Updated at 09-01-2016
+Made it so cheaters can't use the mod (If they are tagged in pd2stats).
+Added ability to let people with "Not enough heists completed to reach infamy (X)" join the game, since it does contain a lot of false positives.
+Fixed skill print on game screen, so it doesnt display only the last persons skills.
+Added family sharing accounts playtime lookup.
+Fixed toggling from On to Off to save and work properly.
+---------------------- 2.1 R27 ----------------------
+Updated at 04-01-2016
+Added aditional armors into kick options.
+Fixed crashes if you do not modify the minimum infamy level.
+Added maximum infamy level option.
+Tweaked the level filter now it progresses with +20 on each step, not +50. Max For Deathwish is 600 and Max for Overkill is 300.
+---------------------- 2.0 R26 ----------------------
+Updated at 02-01-2016
+Added ability to populate blacklist when you are a client.
+Pd2Stats now display the exact cheater kick reason.
+Added armor based kick.
+Incomplete perk deck kick.
+Added ability to kick hidden profiles that are V-100 or XXV-100 infamy level (there are a lot of people that cheat to get these levels).
+---------------------- 1.98 R25 ----------------------
+Updated at 31-12-2015
+Tweaked pd2stats lookup.
+Fixed crash regarding friend deployables.
+---------------------- 1.97 R24 ----------------------
+Updated at 20-12-2015
+Added pd2stats cheater lookup (you can select to use it or not in mod settings).
+---------------------- 1.95 R23 ----------------------
+Updated at 18-12-2015
+Extra formatting for Russian (chrom[K]a), Dutch(BitsOfSkin), French(Mr.PlayYou [BE]), Italian(Mr.PlayYou [BE]), German([PHE$] Zoyus) localizations.
+Added ability to kick people with specific deployables once they ready up if the game has already started. (single ecm, one sentry gun, armor bag, nothing, bodybags or 4 aid kits <- Best addition ever!.).
+Made it so people from whitelist wouldn't be effected by the perk deck checks.
+---------------------- 1.92 R22 ----------------------
+Updated at 18-12-2015
+Extra formatting for Russian (chrom[K]a), Dutch(BitsOfSkin), French(Mr.PlayYou [BE]), Italian(Mr.PlayYou [BE]), German([PHE$] Zoyus) localizations.
+Added ability to kick people with specific deployables once they ready up if the game has already started. (single ecm, one sentry gun, armor bag, nothing, bodybags or 4 aid kits <- Best addition ever!.)
+Made it so people from whitelist wouldn't be effected by the perk deck checks.
+---------------------- 1.91 R21 ----------------------
+Updated at 16-12-2015
+Extra formating for Russian localization.
+Added Dutch localization (collab with BitsOfSkin).
+Added French localization (collab with Mr.PlayYou [BE]).
+Added Italian localization (collab with Mr.PlayYou [BE]).
+Added German localization (collab with [PHE$] Zoyus).
+---------------------- 1.9 R20 ----------------------
+Updated at 14-12-2015
+Added Russian localization (collab with chrom[K]a).
+Changed menu settings from multiple selection to true/false.
+---------------------- 1.85 R19 ----------------------
+Updated at 13-12-2015
+Fixed random crashes on peers joining.
+---------------------- 1.84 R18 ----------------------
+Updated at 12-12-2015
+Additional crash perventions.
+Added ability to kick hidden profiles according to their infamy level.
+---------------------- 1.83 R17 ----------------------
+Updated at 11-12-2015
+Fixed the god damn mod.
+---------------------- 1.82 R16 ----------------------
+Updated at 11-12-2015
+Patched out peer lookup, so it doesn't return nil if person leaves within checks
+Added individual kick for every perk deck, you can select which ones to kick and which ones not to.
+---------------------- 1.81 R15 ----------------------
+Updated at 11-12-2015
+Quick fix. Meter for connected players does not reset if you rehost the game. Now it does.
+---------------------- 1.8 R14 ----------------------
+Updated at 10-12-2015
+Fixed broadcast value switching back to default.
+Added skills check, perk deck check.
+Added anticheat, if person has spent more than max skill points, he gets kicked and banned.
+Added ability to kick players with perk deck 0/9.
+Added ability to disable player skills information output.
+---------------------- 1.72 R13 ----------------------
+Updated at 10-12-2015
+Fixed the mod. (It did not work for those who didn't have the blacklist mod).
+---------------------- 1.71 R12 ----------------------
+Updated at 05-12-2015
+Changed text formatting for the messages, so people don't get confused.
+Made it so with every update the blacklist doesn't delete itself.
+---------------------- 1.7 R11 ----------------------
+Updated at 03-12-2015
+Made it so, you can still see information about the person if you toggle the mod off.
+Added blacklist.
+Changed formatting for the kick message.
+---------------------- 1.61 R10 ----------------------
+Updated at 01-12-2015
+Fixed hidden kick.
+---------------------- 1.6 R9 ----------------------
+Updated at 23-11-2015
+Added stealth/loud tag check.
+Different timers for loud/stealth.
+---------------------- 1.5 R8 ----------------------
+Updated at 23-11-2015
+Fixed whitelist.
+Added colored messages to represent actions for the host.
+---------------------- 1.4 R7 ----------------------
+Updated at 22-11-2015
+Added separate counter for overkill with different values. (20,40,60...).
+---------------------- 1.33 R6 ----------------------
+Updated at 22-11-2015
+ACTUALLY fixed counter for more than 1000 hours joining person.
+Small formatting for text output (the joining person will only see that the mod.is running, but not his current hours, while others will see).
+Information banner will say the mod name with [NGBTO] when printing hour count.
+---------------------- 1.32 R5 ----------------------
+Updated at 22-11-2015
+Added Overkill difficulty support. (For now both difficulties use same counter).
+---------------------- 1.31 R4 ----------------------
+Updated at 21-11-2015
+Added auto update feature.
+Fixed whitelist ingame bug.
+Fixed bug where if the person has more than 1000 hrs then you get no info about him.
+Code optimization.
+Added extra information to players joining your lobby.
+---------------------- 1.20 R3 ----------------------
+Updated at 21-11-2015
+Major code rewriting. (Still not there yet).
+Created hotkey to disable enable the mod ingame and in lobby.
+Added selection to either keep the broadcast messages to the host or to the whole lobby.
+---------------------- 1.10 R2 ----------------------
+Updated at 21-11-2015
+Improved whitelist fetch. Thanks =SB= TdlQ for showing a better way.
+Minor cleansing of the code.
+Changed formatting of the text output.
+Added in-game menu to change minimum hours value and how to handle hidden profiles (in mod options).
+---------------------- 1.00 R1 ----------------------
+Updated at 16-11-2015
+Initial release.

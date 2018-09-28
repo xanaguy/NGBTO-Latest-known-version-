@@ -1,0 +1,100 @@
+{
+	"menu_id" : "ngbto_options_deployables",
+	"parent_menu_id" : "ngbto_options_menu",
+	"title" : "ngbto_options_deployables",
+	"description" : "ngbto_options_deployables_desc",
+	"back_callback" : "ngbto_menu",
+	"items" :
+	[
+		{
+			"type" : "toggle",
+			"id" : "ngbto_no_deployable",
+			"title" : "ngbto_no_deployable_title",
+			"description" : "ngbto_no_deployable_desc",
+			"callback" : "ngbto_no_deployable_callback",
+			"value" : "noequipment",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_four_first_aid_kits",
+			"title" : "ngbto_four_first_aid_kits",
+			"description" : "ngbto_four_first_aid_kits_desc",
+			"callback" : "ngbto_four_first_aid_kits_callback",
+			"value" : "fourfaks",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_single_turret",
+			"title" : "bm_equipment_sentry_gun",
+			"description" : "ngbto_single_turret_desc",
+			"callback" : "ngbto_single_turret_callback",
+			"value" : "singleturret",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_body_bags",
+			"title" : "bm_equipment_bodybags_bag",
+			"description" : "ngbto_body_bags_desc",
+			"callback" : "ngbto_body_bags_callback",
+			"value" : "bodybags",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_armor_kit",
+			"title" : "bm_equipment_armor_kit",
+			"description" : "ngbto_armor_kit_desc",
+			"callback" : "ngbto_armor_kit_callback",
+			"value" : "armorkit",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_single_ecm",
+			"title" : "bm_equipment_ecm_jammer",
+			"description" : "ngbto_single_ecm_desc",
+			"callback" : "ngbto_single_ecm_callback",
+			"value" : "singleecm",
+			"default_value" : false
+		},
+    {
+			"type" : "toggle",
+			"id" : "ngbto_ammo_bag",
+			"title" : "bm_equipment_ammo_bag",
+			"description" : "ngbto_ammo_bag_desc",
+			"callback" : "ngbto_ammo_bag_callback",
+			"value" : "ammo_bag",
+			"default_value" : false
+		},
+    {
+			"type" : "toggle",
+			"id" : "ngbto_doctor_bag",
+			"title" : "bm_equipment_doctor_bag",
+			"description" : "ngbto_doctor_bag_desc",
+			"callback" : "ngbto_doctor_bag_callback",
+			"value" : "doctor_bag",
+			"default_value" : false
+		},
+    {
+			"type" : "toggle",
+			"id" : "ngbto_trip_mine",
+			"title" : "bm_equipment_trip_mine",
+			"description" : "ngbto_trip_mine_desc",
+			"callback" : "ngbto_trip_mine_callback",
+			"value" : "trip_mine",
+			"default_value" : false
+		},
+    {
+			"type" : "toggle",
+			"id" : "ngbto_first_aid_kit",
+			"title" : "bm_equipment_first_aid_kit",
+			"description" : "ngbto_first_aid_kit_desc",
+			"callback" : "ngbto_first_aid_kit_callback",
+			"value" : "first_aid_kit",
+			"default_value" : false
+		}
+	]
+}

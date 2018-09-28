@@ -1,0 +1,67 @@
+{
+	"menu_id" : "ngbto_options_extras",
+	"parent_menu_id" : "ngbto_options_menu",
+	"title" : "ngbto_options_extras",
+	"description" : "ngbto_options_extras_desc",
+	"back_callback" : "ngbto_menu",
+	"items" :
+	[
+		{
+			"type" : "toggle",
+			"id" : "ngbto_broadcast",
+			"title" : "ngbto_broadcast_title",
+			"description" : "ngbto_broadcast_desc",
+			"callback" : "ngbto_broadcast_callback",
+			"value" : "broadcastinfo_val",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_show_skills",
+			"title" : "ngbto_show_skills_title",
+			"description" : "ngbto_show_skills_desc",
+			"callback" : "ngbto_show_skills_callback",
+			"value" : "show_perks_info_val",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_detailed_skills",
+			"title" : "ngbto_detailed_skills_title",
+			"description" : "ngbto_detailed_skills_desc",
+			"callback" : "ngbto_detailed_skills_callback",
+			"value" : "skills_detailed",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_statistics",
+			"title" : "ngbto_statistics_title",
+			"description" : "ngbto_statistics_desc",
+			"callback" : "ngbto_statistics_callback",
+			"value" : "Stats_Print",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_kick_type",
+			"title" : "ngbto_kick_type_title",
+			"description" : "ngbto_kick_type_desc",
+			"callback" : "ngbto_kick_type_callback",
+			"value" : "kick_type",
+			"default_value" : true
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_remove_type",
+			"title" : "ngbto_remove_type_title",
+			"description" : "ngbto_remove_type_desc",
+			"callback" : "ngbto_remove_type_callback",
+			"items" : [
+				"hide_kick","plain_kick","disconnect_person"
+			],
+			"value" : "remove_type",
+			"default_value" : 1
+		}
+	]
+}

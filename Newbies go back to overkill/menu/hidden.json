@@ -1,0 +1,70 @@
+{
+	"menu_id" : "ngbto_options_hidden",
+	"parent_menu_id" : "ngbto_options_menu",
+	"title" : "ngbto_options_hidden",
+	"description" : "ngbto_options_hidden_desc",
+	"back_callback" : "ngbto_menu",
+	"items" : 
+	[
+		{
+			"type" : "toggle",
+			"id" : "ngbto_hidden_master",
+			"title" : "ngbto_hidden_master_title",
+			"description" : "ngbto_hidden_master_desc",
+			"callback" : "ngbto_hidden_master_callback",
+			"value" : "kickhidden_val",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_hidden_infamy",
+			"title" : "ngbto_hidden_infamy_title",
+			"description" : "ngbto_hidden_infamy_desc",
+			"callback" : "ngbto_hidden_infamy_callback",
+			"value" : "hiddeninfamycheck",
+			"default_value" : false
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_hidden_infamy_minimum",
+			"title" : "ngbto_hidden_infamy_minimum_title",
+			"description" : "ngbto_hidden_infamy_minimum_desc",
+			"callback" : "ngbto_hidden_infamy_minimum_callback",
+			"items" : [
+				"0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25"
+			],
+			"value" : "hiddeninfamy",
+			"default_value" : 2
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_hidden_infamy_maximum",
+			"title" : "ngbto_hidden_infamy_maximum_title",
+			"description" : "ngbto_hidden_infamy_maximum_desc",
+			"callback" : "ngbto_hidden_infamy_maximum_callback",
+			"items" : [
+				"0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25"
+			],
+			"value" : "hiddeninfamymax",
+			"default_value" : 26
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_hidden_infamy_v",
+			"title" : "ngbto_hidden_infamy_v_title",
+			"description" : "ngbto_hidden_infamy_v_desc",
+			"callback" : "ngbto_hidden_infamy_v_callback",
+			"value" : "hiddenv",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_hidden_infamy_xxv",
+			"title" : "ngbto_hidden_infamy_xxv_title",
+			"description" : "ngbto_hidden_infamy_xxv_desc",
+			"callback" : "ngbto_hidden_infamy_xxv_callback",
+			"value" : "hiddenxxv",
+			"default_value" : false
+		}
+	]
+}

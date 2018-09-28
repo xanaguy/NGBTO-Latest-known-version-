@@ -1,0 +1,137 @@
+{
+	"menu_id" : "ngbto_options_misc",
+	"parent_menu_id" : "ngbto_options_menu",
+	"title" : "ngbto_options_infamy",
+	"description" : "ngbto_options_infamy_desc",
+	"back_callback" : "ngbto_menu",
+	"items" :
+	[
+		{
+			"type" : "toggle",
+			"id" : "ngbto_detection_loud",
+			"title" : "ngbto_detection_loud_title",
+			"description" : "ngbto_detection_loud_desc",
+			"callback" : "ngbto_detection_loud_callback",
+			"value" : "detection_loud",
+			"default_value" : false
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_detection_loud_value",
+			"title" : "ngbto_detection_loud_value_title",
+			"description" : "ngbto_detection_loud_value_desc",
+			"callback" : "ngbto_detection_loud_value_callback",
+			"items" : 
+			[
+				"5", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55", "60", "65", "70", "75"
+			],
+			"value" : "detection_loud_value",
+			"default_value" : 15
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_detection_stealth",
+			"title" : "ngbto_detection_stealth_title",
+			"description" : "ngbto_detection_stealth_desc",
+			"callback" : "ngbto_detection_stealth_callback",
+			"value" : "detection_stealth",
+			"default_value" : false
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_detection_stealth_value",
+			"title" : "ngbto_detection_stealth_value_title",
+			"description" : "ngbto_detection_stealth_value_desc",
+			"callback" : "ngbto_detection_stealth_value_callback",
+			"items" : 
+			[
+				"5", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55", "60", "65", "70", "75"
+			],
+			"value" : "detection_stealth_value",
+			"default_value" : 1
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_achievements_check",
+			"title" : "ngbto_achievements_check",
+			"description" : "ngbto_achievements_check_desc",
+			"callback" : "achievements_check_callback",
+			"value" : "achievements_check",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_infamy_check",
+			"title" : "ngbto_infamy_check",
+			"description" : "ngbto_infamy_check_desc",
+			"callback" : "Infamy_check_callback",
+			"value" : "Infamy_check",
+			"default_value" : false
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_infamy_10",
+			"title" : "ngbto_infamy_10",
+			"description" : "ngbto_infamy_hours_desc",
+			"callback" : "Infamy_check_10_callback",
+			"items" : 
+			[
+				"20", "40", "60", "80", "100"
+			],
+			"value" : "Infamy_check_10",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_infamy_15",
+			"title" : "ngbto_infamy_15",
+			"description" : "ngbto_infamy_hours_desc",
+			"callback" : "Infamy_check_15_callback",
+			"items" : 
+			[
+				"20", "40", "60", "80", "100", "120", "140", "160"
+			],
+			"value" : "Infamy_check_15",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_infamy_20",
+			"title" : "ngbto_infamy_20",
+			"description" : "ngbto_infamy_hours_desc",
+			"callback" : "Infamy_check_20_callback",
+			"items" : 
+			[
+				"20", "40", "60", "80", "100", "120", "140", "160", "180"
+			],
+			"value" : "Infamy_check_20",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_infamy_24",
+			"title" : "ngbto_infamy_24",
+			"description" : "ngbto_infamy_hours_desc",
+			"callback" : "Infamy_check_24_callback",
+			"items" : 
+			[
+				"20", "40", "60", "80", "100", "120", "140", "160", "180", "200"
+			],
+			"value" : "Infamy_check_24",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_infamy_25",
+			"title" : "ngbto_infamy_25",
+			"description" : "ngbto_infamy_hours_desc",
+			"callback" : "Infamy_check_25_callback",
+			"items" : 
+			[
+				"20", "40", "60", "80", "100", "120", "140", "160", "180", "200", "220", "240", "260", "280", "300"
+			],
+			"value" : "Infamy_check_25",
+			"default_value" : 1
+		}
+	]
+}

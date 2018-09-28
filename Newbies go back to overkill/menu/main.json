@@ -1,0 +1,63 @@
+{
+	"menu_id" : "ngbto_options_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "ngbto_options",
+	"description" : "ngbto_options_desc",
+	"back_callback" : "ngbto_menu",
+	"items" : 
+	[
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_language",
+			"title" : "ngbto_language_title",
+			"description" : "ngbto_language_desc",
+			"callback" : "ngbto_language_callback",
+			"items" : 
+			[
+				"ngbto_language_english", "ngbto_language_french", "ngbto_language_russian", "ngbto_language_german", "ngbto_language_italian", "ngbto_language_dutch", "ngbto_language_spanish", "ngbto_language_turkish", "ngbto_language_chinese", "ngbto_language_czech", "ngbto_language_thai"
+			],
+			"value" : "Noob_language",
+			"default_value" : 1
+		},
+		{
+			"type" : "keybind",
+			"id" : "ngbto_toggle",
+			"title" : "ngbto_toggle_title",
+			"description" : "ngbto_toggle_desc",
+			"keybind_id" : "NewbieDW_keybind_id",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"func" : "Toggle"
+		},
+		{
+			"type" : "keybind",
+			"id" : "ngbto_skill_overlay",
+			"title" : "ngbto_skill_overlay_title",
+			"description" : "ngbto_skill_overlay_desc",
+			"keybind_id" : "Newbie_Skill_Info_id",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"func" : "SkillInfo"
+		},
+		{
+			"type" : "keybind",
+			"id" : "ngbto_manual_ban",
+			"title" : "ngbto_manual_ban_title",
+			"description" : "ngbto_manual_ban_desc",
+			"keybind_id" : "NGBTO_manual_ban",
+			"run_in_game" : true,
+			"run_in_menu" : true,
+			"func" : "ManualBan"
+		},
+		{
+			"type" : "keybind",
+			"id" : "ngbto_inspection",
+			"title" : "ngbto_inspection_title",
+			"description" : "ngbto_inspection_desc",
+			"keybind_id" : "NGBTO_inspect",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"func" : "PlayerInspect"
+		}
+	]
+}

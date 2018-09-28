@@ -1,0 +1,148 @@
+{
+	"menu_id" : "ngbto_options_data_filters",
+	"parent_menu_id" : "ngbto_options_menu",
+	"title" : "ngbto_options_data_filters",
+	"description" : "ngbto_options_data_filters_desc",
+	"back_callback" : "ngbto_menu",
+	"items" : 
+	[
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_one_down_loud",
+			"title" : "ngbto_one_down_loud_title",
+			"description" : "ngbto_one_down_loud_desc",
+			"callback" : "ngbto_one_down_loud_callback",
+			"items" : [
+				"0","20","40","60","80","100","120","140","160","180","200","220","240","260","280","300","320","340","360","380","400", "420", "440", "460", "480", "500", "520", "540", "560", "580", "600", "620", "640", "660", "680", "700", "720", "740", "760", "780", "800", "820", "840", "860", "880", "900", "920", "940", "960", "980", "1000"
+			],
+			"value" : "min_hours_loud_sm_wish_val",
+			"default_value" : 6
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_one_down_stealth",
+			"title" : "ngbto_one_down_stealth_title",
+			"description" : "ngbto_one_down_stealth_desc",
+			"callback" : "ngbto_one_down_stealth_callback",
+			"items" : [
+				"0","20","40","60","80","100","120","140","160","180","200","220","240","260","280","300","320","340","360","380","400", "420", "440", "460", "480", "500", "520", "540", "560", "580", "600"
+			],
+			"value" : "min_hours_stealth_sm_wish_val",
+			"default_value" : 7
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_deathwish_loud",
+			"title" : "ngbto_deathwish_loud_title",
+			"description" : "ngbto_deathwish_loud_desc",
+			"callback" : "ngbto_deathwish_loud_callback",
+			"items" : [
+				"0","20","40","60","80","100","120","140","160","180","200","220","240","260","280","300","320","340","360","380","400", "420", "440", "460", "480", "500", "520", "540", "560", "580", "600", "620", "640", "660", "680", "700", "720", "740", "760", "780", "800", "820", "840", "860", "880", "900", "920", "940", "960", "980", "1000"
+			],
+			"value" : "min_hours_loud_dw_val",
+			"default_value" : 6
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_deathwish_stealth",
+			"title" : "ngbto_deathwish_stealth_title",
+			"description" : "ngbto_deathwish_stealth_desc",
+			"callback" : "ngbto_deathwish_stealth_callback",
+			"items" : [
+				"0","20","40","60","80","100","120","140","160","180","200","220","240","260","280","300","320","340","360","380","400", "420", "440", "460", "480", "500", "520", "540", "560", "580", "600"
+			],
+			"value" : "min_hours_stealth_dw_val",
+			"default_value" : 7
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_mayhem_loud",
+			"title" : "ngbto_mayhem_loud_title",
+			"description" : "ngbto_mayhem_loud_desc",
+			"callback" : "ngbto_mayhem_loud_callback",
+			"items" : [
+				"0","20","40","60","80","100","120","140","160","180","200","220","240","260","280","300"
+			],
+			"value" : "min_hours_loud_easy_wish_val",
+			"default_value" : 4
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_mayhem_stealth",
+			"title" : "ngbto_mayhem_stealth_title",
+			"description" : "ngbto_mayhem_stealth_desc",
+			"callback" : "ngbto_mayhem_stealth_callback",
+			"items" : [
+				"0","20","40","60","80","100","120","140","160","180","200","220","240","260","280","300"
+			],
+			"value" : "min_hours_stealth_easy_wish_val",
+			"default_value" : 6
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_overkill_loud",
+			"title" : "ngbto_overkill_loud_title",
+			"description" : "ngbto_overkill_loud_desc",
+			"callback" : "ngbto_overkill_loud_callback",
+			"items" : [
+				"0","20","40","60","80","100","120","140","160","180","200","220","240","260","280","300"
+			],
+			"value" : "min_hours_loud_ovk_val",
+			"default_value" : 4
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_overkill_stealth",
+			"title" : "ngbto_overkill_stealth_title",
+			"description" : "ngbto_overkill_stealth_desc",
+			"callback" : "ngbto_overkill_stealth_callback",
+			"items" : [
+				"0","20","40","60","80","100","120","140","160","180","200","220","240","260","280","300"
+			],
+			"value" : "min_hours_stealth_ovk_val",
+			"default_value" : 6
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_total_heists",
+			"title" : "ngbto_total_heists_title",
+			"description" : "ngbto_total_heists_desc",
+			"callback" : "ngbto_total_heists_callback",
+			"value" : "total_count_enable",
+			"default_value" : false
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_total_heists_number",
+			"title" : "ngbto_total_heists_number_title",
+			"description" : "ngbto_total_heists_number_desc",
+			"callback" : "ngbto_total_heists_number_callback",
+			"items" : [
+				"0","20","40","60","80","100","120","140","160","180","200","220","240","260","280","300","320","340","360","380","400", "420", "440", "460", "480", "500", "520", "540", "560", "580", "600", "620", "640", "660", "680", "700", "720", "740", "760", "780", "800", "820", "840", "860", "880", "900", "920", "940", "960", "980", "1000"
+			],
+			"value" : "total_count",
+			"default_value" : 1
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_deathwish_heists",
+			"title" : "ngbto_deathwish_heists_title",
+			"description" : "ngbto_deathwish_heists_desc",
+			"callback" : "ngbto_deathwish_heists_callback",
+			"value" : "deathwish_count_enable",
+			"default_value" : false
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "ngbto_deathwish_heists_number",
+			"title" : "ngbto_deathwish_heists_number_title",
+			"description" : "ngbto_deathwish_heists_number_desc",
+			"callback" : "ngbto_deathwish_heists_number_callback",
+			"items" : [
+				"0","20","40","60","80","100","120","140","160","180","200","220","240","260","280","300","320","340","360","380","400", "420", "440", "460", "480", "500", "520", "540", "560", "580", "600"
+			],
+			"value" : "deathwish_count",
+			"default_value" : 1
+		}
+	]
+}

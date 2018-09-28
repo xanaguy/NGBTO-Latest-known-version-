@@ -1,0 +1,46 @@
+{
+	"menu_id" : "ngbto_options_anti_cheat",
+	"parent_menu_id" : "ngbto_options_menu",
+	"title" : "ngbto_options_anti_cheat",
+	"description" : "ngbto_options_anti_cheat_desc",
+	"back_callback" : "ngbto_menu",
+	"items" :
+	[
+		{
+			"type" : "toggle",
+			"id" : "ngbto_pd2stats",
+			"title" : "ngbto_pd2stats_title",
+			"description" : "ngbto_pd2stats_desc",
+			"callback" : "ngbto_pd2stats_callback",
+			"value" : "usepd2statsanticheat",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_pd2stats_extra",
+			"title" : "ngbto_pd2stats_extra_title",
+			"description" : "ngbto_pd2stats_extra_desc",
+			"callback" : "ngbto_pd2stats_extra_callback",
+			"value" : "tag_not_enough_heists_completed",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_skill_cheats",
+			"title" : "ngbto_skill_cheats_title",
+			"description" : "ngbto_skill_cheats_desc",
+			"callback" : "ngbto_skill_cheats_callback",
+			"value" : "skill_cheats",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "ngbto_ingame_anticheat",
+			"title" : "ngbto_ingame_anticheat_title",
+			"description" : "ngbto_ingame_anticheat_desc",
+			"callback" : "ngbto_ingame_anticheat_callback",
+			"value" : "ingame_anticheat",
+			"default_value" : true
+		}
+	]
+}

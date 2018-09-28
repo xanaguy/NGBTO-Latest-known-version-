@@ -1,0 +1,22 @@
+{
+	"blt_version" : 2,
+	"name" : "Newbies go back to overkill",
+	"description" : "A modification for a game which will protect your lobby from unwanted people, cheaters or just free weekenders. Works on: Overkill, Mayhem, DeathWish and One Down difficulties.\nTranslations:\nFrench - Mr.PlayYou[BE]\nGerman - Baum\nRussian - chrom[K]a and NiceGuy1331\nDutch - BitsOfSkin\nSpanish - Tony >:3\nTurkish - sidknee\nChinese - WingOrLife\nChech - Jeff",
+	"author" : "FishTaco",
+	"contact" : "http://steamcommunity.com/id/zo0mer170/",
+	"version" : "76",
+	"image" : "ngbto.png",
+	"color" : "255 0 0",
+	"hooks" :
+	[
+		{"hook_id" : "lib/managers/menumanager", "script_path" : "lua/OptionsMenu.lua"},
+		{"hook_id" : "lib/managers/menumanager", "script_path" : "lua/MenuManager.lua"},
+		{"hook_id" : "lib/network/base/networkpeer", "script_path" : "lua/NetworkHooks.lua"},
+		{"hook_id" : "lib/network/base/basenetworksession", "script_path" : "lua/NetworkHooks.lua"},
+		{"hook_id" : "lib/network/matchmaking/networkmatchmakingsteam", "script_path" : "lua/NetworkHooks.lua"},
+		{"hook_id" : "lib/managers/hudmanagerpd2", "script_path" : "lua/NetworkHooks.lua"},
+		{"hook_id" : "lib/managers/playermanager", "script_path" : "lua/NetworkHooks.lua"},
+		{"hook_id" : "lib/managers/chatmanager", "script_path" : "lua/ChatManager.lua"},
+		{"hook_id": "lib/managers/localizationmanager", "script_path" : "lua/Localization_fixer.lua"}
+	]
+}
